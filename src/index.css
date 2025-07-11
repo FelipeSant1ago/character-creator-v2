@@ -1,12 +1,13 @@
 body {
   background-color: hsl(180deg 25% 92%);
+
   margin: 0;
 }
 
 *,
 *:before,
 *:after {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
@@ -23,4 +24,12 @@ body {
   margin: -1px;
   padding: 0;
   border: 0;
+}
+
+.perspective-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: hsl(195deg, 20%, 86%);
+  height: 60%;
 }
